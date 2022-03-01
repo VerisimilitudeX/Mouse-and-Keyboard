@@ -7,7 +7,6 @@ pygame.init()
 r = random.randint(0, 255)
 g = random.randint(0, 255)
 b = random.randint(0, 255)
-
 color = (r, g, b)
 
 # Window
@@ -21,7 +20,6 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-
 
     # Fill the window with color
     window.fill(color)
